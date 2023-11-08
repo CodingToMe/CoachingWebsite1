@@ -1,0 +1,47 @@
+.card{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+
+.card-img-overlay{
+    text-align: center;
+
+    /* margin-top:10%; */
+    color: black;
+}
+.card-img-overlay h3{
+    font-weight: 700;
+    margin: 80px 0 25px;
+    font-size: 36px;
+    line-height: 46px;
+    text-transform: capitalize;
+}
+
+.card-text{
+    font-size: 18px;
+    color: black;
+    line-height: 46px;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+    
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 26px;
+    /* margin-bottom: 100px; */
+    text-transform: uppercase;
+    color: #fff;
+    background: #fe4c1c;
+    border-radius: 30px;
+}
+.btn:hover{
+
+    color: orange;
+    background-color: black;
+}

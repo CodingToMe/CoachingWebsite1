@@ -1,0 +1,39 @@
+.warp-bg{
+    width: 85%;
+}
+.card{
+    margin-right: 50px;
+    border-radius: 15px !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.5s;
+}
+.top-card-img{
+    width: 90px;
+    margin: 20px 0 0px 30px;
+}
+.card-title:hover,.read-more:hover{
+color: goldenrod;
+}
+.read-more{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-text{
+    font-size: 20px;
+}
+.card:hover {
+    transform: scale(1.1);
+  }
+
+.btn{
+    width: 17%;
+    /* border: 2px solid; */
+    margin-top: 63px;
+    background-color: goldenrod;
+    font-weight: 500;
+    color: white;
+    border-radius: 16px;
+}
+.btn:hover{
+    background-color: grey;
+}

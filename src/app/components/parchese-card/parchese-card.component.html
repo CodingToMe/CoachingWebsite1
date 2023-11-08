@@ -1,0 +1,123 @@
+
+<div class='warp-bg container-fluid'>
+
+    <div class="row justify-content-center my-md-5 mb-2">
+        <div class="col-xl-9">
+            <div class="row justify-content-center">
+
+
+                <div class='text-center my-4 '>
+                    <div>
+                        <h2 class='text-dark'>Learning Plan Made For You</h2>
+                    </div>
+                    <div class="bar"></div>
+                    <div class='fs-5'>
+                        
+                        Infinit Digital solutions is proud to offer a diverse range of distance learning programs for professional trainers. How to Choose the Best One for Your Budget. 
+                        And Get provide 5% Discount on all courses. 
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          <!-- ------------------cards start--------------------------- -->
+
+         <div class="d-flex justify-content-evenly" >
+            <div class="row width" *ngFor="let data of parchesCardData">
+                <div class=" col">
+                   <div class="card shadow text-center">
+                      <div class="card-header bg-white p-3">
+                          <h4 class="text-primary mb-4">{{data.PriceText}}</h4>
+                          <span class="d-block">
+                              <span class="display-6 text-dark fw-bold">
+                                {{data.Price}}
+                          </span>
+                          <span class="d-block text-gray font-small">{{data.months}}</span>
+                          </span>
+                      </div>
+                      <div class="card-body">
+                          <h4 class=" pb-3"><strong>{{data.courseName}}</strong> </h4>
+                          <ul class="list-unstyled mb-4" >
+                              <li class="list-item fw-bold pb-3">Provide 100% Job Assistance</li>
+                              <li class="list-item fw-bold pb-3">Provide Internship Letter</li>
+                              <li class="list-item fw-bold pb-3">Provide Recording Videos</li>
+                             
+                              
+                              <li class="list-item fw-bold pb-3">Work On Live Project </li>
+                              <li class="list-item fw-bold pb-3">Also Available Demo Class </li>
+                              <li class="list-item fw-bold pb-3">Gives Quetions on Prectice</li>
+
+                              <li class="list-item fw-bold pb-3">Community support</li>
+                          </ul>
+                          <div class="d-grid button"><a href="#" class="btn btn-primary animate-up-1">Purchase now</a></div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="row width">
+                <div class=" col">
+                   <div class="card shadow text-center">
+                      <div class="card-header bg-white p-3">
+                          <h4 class="text-primary mb-4">Price</h4>
+                          <span class="d-block">
+                              <span class="display-6 text-dark fw-bold">
+                                  6500/-
+                          </span>
+                          <span class="d-block text-gray font-small">2-3/ months</span>
+                          </span>
+                      </div>
+                      <div class="card-body">
+                          <h4 class=" pb-3"><strong>Python Developer</strong> </h4>
+                          <ul class="list-unstyled mb-4">
+                              <li class="list-item fw-bold pb-3">Provide 100% Job Assistance</li>
+                              <li class="list-item fw-bold pb-3">Provide Internship Letter</li>
+                              <li class="list-item fw-bold pb-3">Provide Recording Videos</li>
+                              <li class="list-item fw-bold pb-3">Gives Quetions on Prectice</li>
+                              
+                              <li class="list-item fw-bold pb-3">Work On Live Project </li>
+                              <li class="list-item fw-bold pb-3">Also Available Demo Class </li>
+                              <li class="list-item fw-bold pb-3">Community support</li>
+                          </ul>
+                          <div class="d-grid button"><a href="#" class="btn btn-primary animate-up-1">Purchase now</a></div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row width">
+                <div class=" col">
+                   <div class="card shadow text-center">
+                      <div class="card-header bg-white p-3">
+                          <h4 class="text-primary mb-4">Price</h4>
+                          <span class="d-block">
+                              <span class="display-6 text-dark fw-bold">
+                                  7000/-
+                          </span>
+                          <span class="d-block text-gray font-small">3-4/ months</span>
+                          </span>
+                      </div>
+                      <div class="card-body">
+                          <h4 class=" pb-3"><strong>JavaScript Developer</strong> </h4>
+                          <ul class="list-unstyled mb-4">
+                              <li class="list-item fw-bold pb-3">Provide 100% Job Assistance</li>
+                              <li class="list-item fw-bold pb-3">Provide Internship Letter</li>
+                              <li class="list-item fw-bold pb-3">Provide Recording Videos</li>
+                              <li class="list-item fw-bold pb-3">Gives Quetions on Prectice</li>
+                              
+                              <li class="list-item fw-bold pb-3">Work On Live Project </li>
+                              <li class="list-item fw-bold pb-3">Also Available Demo Class </li>
+                              <li class="list-item fw-bold pb-3">Community support</li>
+                          </ul>
+                          <div class="d-grid button"><a href="#" class="btn btn-primary animate-up-1">Purchase now</a></div>
+                      </div>
+                  </div>
+                </div>
+              </div> -->
+              
+            </div>
+            <div class="d-flex justify-content-center">
+            <button  routerLink="/courses-card" class="btn course-btn">All Courses <i class="bi bi-arrow-right"></i></button>
+        </div>
+          
+    

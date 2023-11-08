@@ -1,0 +1,32 @@
+#carouselExampleDark {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    /* border: 2px solid; */
+    color: black;
+}
+
+.carousel-item i {
+    color: orange;
+    
+    font-size: 100px;
+}
+
+.carousel-item p {
+    font-weight: 700;
+    font-size: 23px;
+    margin: 0px;
+    line-height: 1.875;
+}
+
+.carousel-indicators {
+    position: unset !important;
+}
+
+.carousel-indicators button {
+
+    margin-top: 20px;
+    width: 12px !important;
+    height: 12px !important;
+    background-color: orange !important;
+}

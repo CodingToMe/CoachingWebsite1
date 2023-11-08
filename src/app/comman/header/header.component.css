@@ -1,0 +1,43 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Poppins:wght@400;600;700&family=Roboto+Mono:ital,wght@1,100&family=Rubik&display=swap');
+
+
+  .navbar-brand{
+    color: gold;
+    font-weight: 600;
+    font-size: 26px;
+  }
+
+.nav-item a{
+    color: white;
+    font-size: 18px;
+   
+}
+.navbar-collapse{
+    margin-left: 200px;
+    font-family: 'Rubik', sans-serif;
+}
+.dropdown-menu{
+background-color: rgb(18, 18, 62);
+}
+.dropdown-menu a:hover
+{
+  color: goldenrod;
+background-color: black;
+}
+/* .nav-item a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-item a:hover:after { 
+  width: 100%; 
+  left: 0; 
+} */

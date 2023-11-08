@@ -1,0 +1,53 @@
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  0px;
+    background-color: rgb(0, 0, 33);
+    color: white;
+} 
+
+.firstsection > div{
+    width: 44%;
+}
+.welcome{
+    margin-left: 29px;
+    font-size: 25px;
+    
+}
+.Golden{
+    color: goldenrod;
+}
+.leftsection{
+    /* background-color: red;
+    width: 50%; */
+    font-size: 4rem;
+    /* margin: 50px 0px; */
+}
+
+.rightsection{
+    /* background-color: green; */
+    width: 50%;
+}
+.rightsection img{
+width: 80%;
+    margin: 50px 0px;
+}
+.perpal{
+    color: goldenrod;
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color: goldenrod;
+}
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    
+    margin: 40px 70px;
+    width: 90%;
+
+}

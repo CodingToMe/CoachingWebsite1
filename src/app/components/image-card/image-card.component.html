@@ -1,0 +1,39 @@
+<div id="why-us-white">
+    <div class="why-us-container why-us-left-bgs">
+        <div class="container">
+            <div class="row ">
+                <div class="col-xs-12 col-sm-12 col-md-5 col-xl-6 col-lg-6">
+
+                    <img class="left-img" src="../../../assets/All_imgaes/image-card/banner4.avif" alt=""/>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-xl-6 col-lg-6 text-left">
+                    <div class="white-box-large" *ngFor="let data of ImgCarData;let i=index ">
+                    <div class="section-title" >
+                        <div>
+                            <h3>{{data.cardHeading}}</h3>
+                            <div class="bar">
+
+                            </div>
+                        </div>
+                    </div>
+                    <p>
+                        
+                       {{data.Description}}
+                    </p>
+                    <ul class="themeioan_ul_icon" >
+                        <li *ngFor="let newData of data.InnerData"><i class="bi bi-check-circle"></i>{{newData}}<span style="font-weight: 800; "></span></li>
+                        <!-- <li><i class="bi bi-check-circle"></i>Coaching Courses for Life</li>
+                        <li><i class="bi bi-check-circle"></i>Provides Recording Videos  </li>
+                        <li><i class="bi bi-check-circle"></i>We have best support community
+                        </li>
+                        <li><i class="bi bi-check-circle"></i>Call us 24/7 we are Online</li> -->
+
+                    </ul>
+                    <div class="mt-25 mb-50"> <a routerLink="/about" class="color-two btn-custom ">{{data.btnText}}<i class="bi bi-arrow-right"></i></a></div>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
