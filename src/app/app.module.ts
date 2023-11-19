@@ -17,6 +17,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about/about-us/about-us.component';
 import { CoursesCardComponent } from './courses/courses-card/courses-card.component';
+import { UserProfilesComponent } from './users/user-profiles/user-profiles.component';
 
 
 
@@ -37,6 +38,7 @@ import { CoursesCardComponent } from './courses/courses-card/courses-card.compon
     HomeComponent,
     AboutUsComponent,
     CoursesCardComponent,
+    UserProfilesComponent,
     
   ],
   imports: [
